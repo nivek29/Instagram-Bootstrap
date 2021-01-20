@@ -1,0 +1,27 @@
+.options{
+    background-color: rgb(209, 202, 202);
+    border: rgb(209, 202, 202) ;
+}
+.options:hover{
+    background-color: rgb(143, 140, 140);
+}
+.btn-light{
+    margin-top: 8px;
+}
+.card-size{
+    width: 40rem;
+}
+.img-margin{
+    margin-top: -10px;
+}
+.card-body{
+    margin-top: -30px;
+}
+.btn-like,.btn-option{
+    border: none;
+    color: gray;
+    background-color: transparent;
+}
+.post{
+    margin-top: 35px;
+}

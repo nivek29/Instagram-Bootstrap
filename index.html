@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/6736a5bda3.js" crossorigin="anonymous"></script>
+    <script src="js/collapse.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <textarea class="form-control col-12" id="exampleFormControlTextarea1"></textarea>
+                        <button type="button" class="btn btn-light"><i class="fas fa-camera"></i></button>
+                        <button type="button" class="btn btn-light"><i class="fas fa-map-marker-alt"></i></button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  flex-grow-1 justify-content-end" id="navbarSupportedContent">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Create the new post</button>
+                        <button type="button" class="options btn btn-success dropdown-toggle dropdown-toggle-split"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden"><i class="fas fa-cog"></i></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Create the new post</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Log Out</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        &nbsp;
+        <div class="row">
+            <div class=" d-flex col justify-content-center flex-grow-1">
+                <div class=" btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary" id="bleft"><i class="fab fa-microsoft"></i></button>
+                    <button type="button" class="btn btn-secondary" id="bright"><i class="fas fa-square"></i></button>
+                </div>
+            </div>
+        </div>
+        &nbsp;
+
+        <div class="row " id="left">
+            <div class="card-group ">
+                <div class="card">
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        &nbsp;
+
+        <div class="multi-collapse collapse" id="right">
+            <div class=" post col-12 d-flex justify-content-center">
+                <div class="card card-size">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="card-title">Card title</h5>
+                        <p>20/01</p>
+                    </div>
+                    <div class="col-5 justify-content-end">
+
+                    </div>
+
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top img-margin" alt="...">
+                    <div class="col-12">
+                        <p>23 likes</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <div class="col d-flex justify-content-end">
+                            <a href="#" class="btn btn-sm btn-primary btn-like "><i class="far fa-heart"></i></a>
+                            <input type="text" class="form-control form-control-sm col-11" id="exampleFormControlInput1" >
+                            <a href="#" class="btn btn-sm btn-primary btn-option "><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class=" post col-12 d-flex justify-content-center">
+                <div class="card card-size">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="card-title">Card title</h5>
+                        <p>20/01</p>
+                    </div>
+                    <div class="col-5 justify-content-end">
+
+                    </div>
+
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top img-margin" alt="...">
+                    <div class="col-12">
+                        <p>23 likes</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <div class="col d-flex justify-content-end">
+                            <a href="#" class="btn btn-sm btn-primary btn-like "><i class="far fa-heart"></i></a>
+                            <input type="text" class="form-control form-control-sm col-11" id="exampleFormControlInput1" >
+                            <a href="#" class="btn btn-sm btn-primary btn-option "><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class=" post col-12 d-flex justify-content-center">
+                <div class="card card-size">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="card-title">Card title</h5>
+                        <p>20/01</p>
+                    </div>
+                    <div class="col-5 justify-content-end">
+
+                    </div>
+
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top img-margin" alt="...">
+                    <div class="col-12">
+                        <p>23 likes</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <div class="col d-flex justify-content-end">
+                            <a href="#" class="btn btn-sm btn-primary btn-like "><i class="far fa-heart"></i></a>
+                            <input type="text" class="form-control form-control-sm col-11" id="exampleFormControlInput1" >
+                            <a href="#" class="btn btn-sm btn-primary btn-option "><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class=" post col-12 d-flex justify-content-center">
+                <div class="card card-size">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="card-title">Card title</h5>
+                        <p>20/01</p>
+                    </div>
+                    <div class="col-5 justify-content-end">
+
+                    </div>
+
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top img-margin" alt="...">
+                    <div class="col-12">
+                        <p>23 likes</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <div class="col d-flex justify-content-end">
+                            <a href="#" class="btn btn-sm btn-primary btn-like "><i class="far fa-heart"></i></a>
+                            <input type="text" class="form-control form-control-sm col-11" id="exampleFormControlInput1" >
+                            <a href="#" class="btn btn-sm btn-primary btn-option "><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post col-12 d-flex justify-content-center">
+                <div class="card card-size">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="card-title">Card title</h5>
+                        <p>20/01</p>
+                    </div>
+                    <div class="col-5 justify-content-end">
+
+                    </div>
+
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top img-margin" alt="...">
+                    <div class="col-12">
+                        <p>23 likes</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <div class="col d-flex justify-content-end">
+                            <a href="#" class="btn btn-sm btn-primary btn-like "><i class="far fa-heart"></i></a>
+                            <input type="text" class="form-control form-control-sm col-11" id="exampleFormControlInput1" >
+                            <a href="#" class="btn btn-sm btn-primary btn-option "><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post col-12 d-flex justify-content-center">
+                <div class="card card-size">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="card-title">Card title</h5>
+                        <p>20/01</p>
+                    </div>
+                    <div class="col-5 justify-content-end">
+
+                    </div>
+
+                    <img src="https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1"
+                        class="card-img-top img-margin" alt="...">
+                    <div class="col-12">
+                        <p>23 likes</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <div class="col d-flex justify-content-end">
+                            <a href="#" class="btn btn-sm btn-primary btn-like "><i class="far fa-heart"></i></a>
+                            <input type="text" class="form-control form-control-sm col-11" id="exampleFormControlInput1" >
+                            <a href="#" class="btn btn-sm btn-primary btn-option "><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        &nbsp;
+    </div>
+
+</body>
+
+</html>
